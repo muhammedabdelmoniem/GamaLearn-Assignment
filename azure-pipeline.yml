@@ -14,7 +14,7 @@ steps:
   - task: UseDotNet@2
     inputs:
       packageType: 'sdk'
-      version: '6.x' # Ensure this version aligns with your project requirements
+      version: '6.4.0' # Ensure this version aligns with your project requirements
       installationPath: $(Agent.ToolsDirectory)/dotnet
 
   # Step 3: Restore the dependencies
